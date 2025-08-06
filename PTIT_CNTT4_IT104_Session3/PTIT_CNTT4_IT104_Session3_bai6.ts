@@ -18,4 +18,6 @@ console.log("Chia:",num2);
 
 let sum = num4 + num5;
 console.log("phep cong num4 + num5:", sum);
-// khi cộng chuỗi với boolean, typeScript
+// Khi cộng chuỗi với boolean, TypeScript  sẽ ép kiểu tự động: chuyển boolean thành chuỗi rồi nối chuỗi
+// =>> "10" + true ➝ "10true" đây không phải phép cộng số học, mà là nối chuỗi
+
