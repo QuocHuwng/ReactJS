@@ -1,0 +1,15 @@
+var num1 = 20;
+var num2 = 5;
+var num3;
+var num4 = "10";
+var num5 = true;
+num3 = num1 + num2;
+console.log("Cong:", num3);
+num1 = num3 - num2;
+console.log("Tru:", num1);
+num3 = num1 * num2;
+console.log("Nhan:", num3);
+num2 = num3 / num1;
+console.log("Chia:", num2);
+var sum = num4 + num5;
+console.log("phep cong num4 + num5:", sum);
